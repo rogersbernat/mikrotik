@@ -16,6 +16,8 @@ terraform {
 
 provider "routeros" {
   hosturl  = "http://10.0.2.111"
+  username = var.username
+  password = var.password
   insecure = true
 }
 

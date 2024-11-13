@@ -4,12 +4,12 @@ variable "bridge_name" {
   default     = "vlans_bridge" # Matches the bridge used for VLAN traffic
 }
 
-variable "routeros_username" {
+variable "username" {
   description = "Username for RouterOS"
   type        = string
 }
 
-variable "routeros_password" {
+variable "password" {
   description = "Password for RouterOS"
   type        = string
   sensitive   = true
